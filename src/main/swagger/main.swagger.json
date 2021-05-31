@@ -17,7 +17,7 @@
   ],
   "paths": {
     "/echo": {
-      "get": {
+      "post": {
         "operationId": "SayHello_Echo",
         "responses": {
           "200": {
@@ -33,14 +33,6 @@
             }
           }
         },
-        "parameters": [
-          {
-            "name": "userName",
-            "in": "query",
-            "required": false,
-            "type": "string"
-          }
-        ],
         "tags": [
           "SayHello"
         ]
